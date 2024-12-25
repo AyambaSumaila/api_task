@@ -31,3 +31,27 @@
 ### 6. username:admin, password:12345 
 ### 7. http://127.0.0.1:8000/api/products/v1/
 
+
+#Screenshots
+![](images/Screenshot.png)
+![](images/Screenshot2.png)
+![](images/Screenshot3.png)
+![](images/Screenshot4.png)
+![](images/Screenshot5.png)
+![](images/Screenshot6.png)
+![](images/Screenshot7.png)
+![](images/Screenshot9.png)
+![](images/Screenshot10.png)
+![](images/Screenshot11.png)
+![](images/Screenshot12.png)
+![](images/Screenshot13.png)
+![](images/Screenshot14.png)
+![](images/Screenshot15.png)
+![](images/Screenshot16.png)
+![](images/Screenshot17.png)
+![](images/Screenshot18.png)
+![](images/Screenshot19.png)
+![](images/Screenshot20.png)
+![](images/Screenshot21.png)
+![](images/Screenshot22.png)
+
