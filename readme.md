@@ -1,23 +1,23 @@
 # Note: All commands was done in Linus 
 
 ## Steps for setting up the this project
-### 1. Create a folder, you can name it whatever you want, but I named as api_task 
-### 2. Create a virtual environment in the same directory 'api_task', I named mine as env
-##### python3 -m venv env   
+#### 1. Create a folder, you can name it whatever you want, but I named as api_task 
+#### 2. Create a virtual environment in the same directory 'api_task', I named mine as env
+###### python3 -m venv env   
 
-### 3. Activate the virtual environment 'env',
-#### source env/bin/activate 
+#### 3. Activate the virtual environment 'env',
+##### source env/bin/activate 
 
-### 4. Install django and django framework 
-#### pip install django djangorestframework 
+#### 4. Install django and django framework 
+##### pip install django djangorestframework 
 
-### 5. Create your django project 
-#### django-admin startproject myproject .
+#### 5. Create your django project 
+##### django-admin startproject myproject .
 
-### 6. Create your django application 'myapp'
-#### django-admin startapp 'myapp'
+#### 6. Create your django application 'myapp'
+##### django-admin startapp 'myapp'
 
-#### 7. Define the model  
+##### 7. Define the model  
 
 
 
