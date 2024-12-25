@@ -23,16 +23,17 @@
 
 
 # How to run the application
-### 1. clone this repository 
-### 2. cd api_task 
-### 3. activate the virtual environment
-### 4. Install required packages: pip install -r requirements.txt
-### 5. python3 manage.py runserver
-### 6. username:admin, password:12345 
-### 7. http://127.0.0.1:8000/api/products/v1/
+#### 1. clone this repository 
+#### 2. cd api_task 
+#### 3. activate the virtual environment
+#### 4. Install required packages: pip install -r requirements.txt
+#### 5. python3 manage.py runserver
+### You must log in as admin before you can access the api endpoints 
+#### 6. username:admin, password:12345 
+#### 7. http://127.0.0.1:8000/api/products/v1/
 
 
-#Screenshots
+##Screenshots
 ![](images/Screenshot.png)
 ![](images/Screenshot2.png)
 ![](images/Screenshot3.png)
