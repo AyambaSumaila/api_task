@@ -1,23 +1,39 @@
 from .models import  Products
-# Create your views here.
 from django.shortcuts import render
 from rest_framework import generics, permissions 
 from.models import Products 
-from.serializers import ProductsSerializer
-# Create your views here.
+from.serializers import ProductsListSerializer, ProductsDetailSerializer #
 
 
-class ProductsList(generics.ListCreateAPIView):
-   #For authenticated users   
-    #permission_classes = [permissions.IsAuthenticated] 
+class ProductsListAPIView(generics.ListAPIView):
     queryset = Products.objects.all()
-    serializer_class = ProductsSerializer
+    serializer_class = ProductsListSerializer
     
     
-class ProductsDetail(generics.RetrieveUpdateDestroyAPIView):
-   # permission_classes = [permissions.IsAuthenticated]  
+    #Retrieve view 
+class ProductsRetrieveAPIView(generics.RetrieveAPIView):
+    lookup_field = 'id'
     queryset = Products.objects.all()
-    serializer_class = ProductsSerializer    
+    serializer_class = ProductsDetailSerializer    
+    
+    #Create product view 
+class ProductsCreateAPIView(generics.CreateAPIView):
+    queryset = Products.objects.all()
+    serializer_class = ProductsDetailSerializer        
+    
+    
+
+
+#Product retrieve update view     
+class ProductsRetrieveUpdateAPIView(generics.RetrieveUpdateAPIView):
+    lookup_field='id'
+    queryset = Products.objects.all()
+    serializer_class = ProductsDetailSerializer   
+    
+    #Delete view 
+class ProductsDestroyAPIView(generics.DestroyAPIView):
+    lookup_field='id'
+    queryset = Products.objects.all()
     
     
     
