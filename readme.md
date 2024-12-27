@@ -16,8 +16,14 @@
 
 #### 6. Create your django application 'myapp'
 ##### django-admin startapp 'myapp'
+##### Add "myApp" to the installed apps in the settings.py file 
 
 ##### 7. Define the model  
+##### 8. Register "myApp" to the admin.py file
+##### run: python3 manage.py makemigration myApp
+##### run: python3 manage.py migrate
+##### 9. Define serializer.py in myApp
+
 
 
 
