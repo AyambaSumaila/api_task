@@ -29,7 +29,7 @@
 
 
 # How to run the application
-#### 1. clone this repository 
+#### 1. clone this project 
 #### 2. cd api_task 
 #### 3. activate the virtual environment
 #### 4. Install required packages: pip install -r requirements.txt
