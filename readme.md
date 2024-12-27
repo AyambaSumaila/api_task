@@ -39,7 +39,7 @@
 #### 7. http://127.0.0.1:8000/
 
 
-##Screenshots
+# Screenshots the API endpoints 
 ![](images/Screenshot2.png)
 ![](images/Screenshot5.png)
 ![](images/Screenshot7.png)
